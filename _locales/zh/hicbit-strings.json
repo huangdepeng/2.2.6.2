@@ -46,8 +46,8 @@
 	"Sensor.hicbit_getDHT11value|block": "温湿度传感器DHT11 %port|获取 %dhtResult|",
 
 	"{id:category}Mbit_IR": "Hicbit遥控",
-	"Mbit_IR.ir_init|block:":"初始化红外遥控接收传感器|%pin|",
-	"Mbit_IR.ir_received_left_event|block:":"当红外接收到遥控器码|%btn|时",
+	"Mbit_IR.init|block:":"初始化红外遥控接收传感器|%pin|",
+	"Mbit_IR.onPressEvent|block:":"当红外接收到遥控器码|%btn|时",
 	"Mbit_IR.hicbit_Port.port1|block":"接口1",
 	"Mbit_IR.hicbit_Port.port2|block":"接口2",
 	"Mbit_IR.hicbit_Port.port3|block":"接口3",

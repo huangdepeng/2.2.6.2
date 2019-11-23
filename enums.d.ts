@@ -2,9 +2,13 @@
 
 
     declare const enum hicbit_Port {
+    //% block="port 1"
     port1 = 21,
+    //% block="port 2"
     port2 = 23,
+    //% block="port 3"
     port3 = 22,
+    //% block="port 4"
     port4 = 6,
     }
 
