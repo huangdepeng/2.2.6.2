@@ -1,8 +1,8 @@
 {
   "Display.Clearscreen": "Display clear",
   "Display.setDisplay": "Display ultrasonic distance",
-  "Mbit_IR.init": "initialises local variablesssss",
-  "Mbit_IR.onPressEvent": "button pushed.",
+  "Mbit_IR.ir_init": "initialises local variablesssss",
+  "Mbit_IR.ir_received_left_event": "button pushed.",
   "Sensor.hicbit_Rocker": "Determine the direction of remote sensing.",
   "Sensor.hicbit_SoundSensor": "Set the Sound sensor status,1 detect the sound source,0 no detect the sound source 声音",
   "Sensor.hicbit_avoidSensor": "Get the obstacle avoidance sensor status,1 detect obstacle,0 no detect obstacle 避障判断",

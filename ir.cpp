@@ -62,7 +62,7 @@ enum class RemoteButton {
 	  NUM9 = 0x4A
 };
 
-//% color=50 weight=19
+//% color=50 weight=8
 //% icon="\uf1eb"
 namespace Mbit_IR { 
   map<RemoteButton, vA> actions;
@@ -78,7 +78,7 @@ namespace Mbit_IR {
   */
   //% blockId=ir_received_left_event
   //% block="on |%btn| button pressed"
-  void onPressEvent(RemoteButton btn, Action body) {
+  void ir_received_left_event(RemoteButton btn, Action body) {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
     actions[btn].push_back(body);
   }
@@ -108,7 +108,7 @@ namespace Mbit_IR {
   */
   //% blockId=ir_init
   //% block="connect ir receiver to %pin"
-  void init(hicbit_Port pin){
+  void ir_init(hicbit_Port pin){
     rx = new ReceiverIR((PinName)pin);
     tsb.start(); //interrupt timer for debounce
     create_fiber(monitorIR);

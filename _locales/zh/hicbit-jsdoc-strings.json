@@ -32,8 +32,8 @@
 	"Sensor.hicbit_Rocker": "判断遥感的方向，只能接[接口4]",
 	"Sensor.hicbit_getDHT11value":"温湿度DHT11获取温湿度(下次使用时需1s延时)",
 
-	"Mbit_IR.init:":"初始化红外遥控接收传感器",
-	"Mbit_IR.onPressEvent:":"当红外接收到遥控器码时,执行任务",
+	"Mbit_IR.ir_init:":"初始化红外遥控接收传感器",
+	"Mbit_IR.ir_received_left_event:":"当红外接收到遥控器码时,执行任务",
 	
 	"Display.Hicbit_Display_Init":"屏幕显示初始化",
 	"Display.Clearscreen":"清屏操作",
